@@ -19,6 +19,7 @@ Windows Remote Administration Tool via Telegram
 - Run keylogger on the target PC.
 - Get target PC's Windows version, processor and more.
 - Get target PC's IP address information and approximate location on map.
+- Show message box with custom text on target PC (Thanks [mvrozanti](https://github.com/mvrozanti)!)
 - List any directories on the target.
 - Download any file locally from the target PC in the background.
 - Upload local files on to the target PC. Send your image, pdf, exe or anything as `file` to the Telegram bot.
@@ -84,7 +85,6 @@ You can copy the above to update your command list via `BotFather` so you don't 
 ## Notes:
 
 - Currently only Python2 is supported. Python3 support will be added soon!
-- `/msg_box` is still in beta and may not work properly.
 - Keylogger may detect some keys improperly. Like pressing `shift+/` results in recording `/` instead of `?`.
 
 ## Contributing:
