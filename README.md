@@ -96,7 +96,7 @@ You can copy the above to update your command list via `BotFather` so you don't 
 
 ## Disclaimer:
 
-**This tool is only meant for educational & research purposes only is supposed to be used only on authorized systems. Any unauthorized use of this tool without explicit permission is illegal and the authors will not be held responsible for any consequences.**
+**This tool is only meant for educational & research purposes only and is supposed to be used only on authorized systems. Any unauthorized use of this tool without explicit permission is illegal and the authors will not be held responsible for any consequences.**
 
 ## License:
 
