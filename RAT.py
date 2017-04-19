@@ -45,7 +45,7 @@ if (argv[0]).endswith('.exe'):
 		shortcut.WorkingDirectory = hide_folder
 		shortcut.save()
 else:
-	hide_folder = path[0] + '\\RATAttack'
+	hide_folder = path[0] + '\\RAT'
 	if not os.path.exists(hide_folder):
 		os.makedirs(hide_folder)
 
