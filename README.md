@@ -45,11 +45,11 @@ Windows Remote Administration Tool via Telegram
 - Install pyHook `64-bit` or `32-bit` depending on your system.
     - For 64-bit- `pip install pyHook-1.5.1-cp27-cp27m-win_amd64.whl`.
     - For 32-bit- `pip install pyHook-1.5.1-cp27-cp27m-win32.whl`.
-- To run the script: `python RATAttack.py`.
+- To run the script: `python RAT.py`.
 - Find your bot on telegram and send some command to the bot to test it.
 - To restrict the bot so that it responds only to you, note down your `chat_id` from the console and replace it in the script and comment out the line `return True`. Don't worry, you'll know when you read the comments in the script.
 <img src="http://i.imgur.com/XKARtrp.png">
-- A folder named `RATAttack` will be created in your working directory containing `keylogs.txt` and any files you upload to the bot.
+- A folder named `RAT` will be created in your working directory containing `keylogs.txt` and any files you upload to the bot.
 
 ### Commands:
 
@@ -76,7 +76,7 @@ You can copy the above to update your command list via `BotFather` so you don't 
 ### How To Compile:
 
 - Go to `C:\Python27\Scripts\` or wherever you installed python.
-- Run `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. You can also pass `--icon=<path\to\icon.ico>` to use any custom icon.
+- Run `pyinstaller --onefile --noconsole C:\path\to\RAT.py`. You can also pass `--icon=<path\to\icon.ico>` to use any custom icon.
 - Once it is compiled successfully, find the `.exe` file in `C:\Python27\Scripts\dist\`. You can change the name of the `.exe` to anything you wish.
 - **BEWARE!** If you run the compiled `.exe`, the script will hide itself and infect your PC to run at startup. You can return to normal by using the `/self_destruct` option or manually removing `C:\Users\Username\AppData\Roaming\Portal` directory and `C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk` (although I recommend removing them manually for the time being).
 
