@@ -24,6 +24,7 @@ Windows Remote Administration Tool via Telegram
 - Download any file locally from the target PC in the background.
 - Upload local files on to the target PC. Send your image, pdf, exe or anything as `file` to the Telegram bot.
 - Screenshots of the target PC.
+- Play YouTube videos on the target PC.
 - Execute any file on the target PC.
 - [WIP] Self-Destruct RAT on the target PC.
 - [WIP] Take snapshots from the webcam (if attached).
@@ -58,10 +59,11 @@ When using the below commands; use `/` as a prefix. For example: `/pc_info`.
 pc_info - PC information
 msg_box - display message box with text
 snapshot - take picture with webcam
+play - play a YouTube video on the target PC
 ip_info - via ipinfo.io
-download_file - download file from target
+download_file - download file from target PC
 list_dir - list contents of directory
-run_file - run a file on target
+run_file - run a file on target PC
 capture_pc - screenshot PC
 keylogs - get keylogs
 self_destruct - destroy all traces from target PC
@@ -89,7 +91,7 @@ You can copy the above to update your command list via `BotFather` so you don't 
 
 ## Contributing:
 
-- This project is still in very early stages, so you can expect some bugs. Please feel free to report them! Even better, send a pull request :)
+- This project is still in very early stages, so you can expect some bugs. Please feel free to report them! Even better, send a pull request on the `develop` brach :)
 - Any new features and ideas are most welcome!
 
 ## Disclaimer:
