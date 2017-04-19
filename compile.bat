@@ -1,1 +1,0 @@
-pyinstaller --onefile "D:\Google Drive\Programming\Python\RAT-via-Telegram\RATAttack.py"
